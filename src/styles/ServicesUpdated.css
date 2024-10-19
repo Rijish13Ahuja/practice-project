@@ -1,0 +1,46 @@
+.services-updated-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+  }
+  
+  .services-updated-content {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .checkmark-container {
+    margin-bottom: 20px;
+  }
+  
+  .checkmark {
+    color: green;
+    font-size: 50px;
+  }
+  
+  .services-updated-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .services-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .services-button:hover {
+    background-color: #0056b3;
+    text-decoration: none;
+  }
+  

@@ -1,0 +1,74 @@
+.pooja-categories-container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pooja-title {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #d9534f;
+}
+
+.pooja-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Now it's 3 cards per row */
+    gap: 20px;
+}
+
+.pooja-card {
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: border 0.3s ease-in-out;
+}
+
+.pooja-card:hover {
+    border-color: #d9534f;
+}
+
+.pooja-card-content {
+    display: flex;
+    align-items: center;
+}
+
+.pooja-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.pooja-details {
+    flex: 1;
+}
+
+.pooja-details h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.pooja-details p {
+    font-size: 14px;
+    color: #555;
+}
+
+.next-button {
+    margin-top: 30px;
+    padding: 10px 250px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.next-button:hover {
+    background-color: #c9302c;
+}

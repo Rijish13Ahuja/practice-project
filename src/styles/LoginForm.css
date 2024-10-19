@@ -1,0 +1,54 @@
+.login-container-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.login-container {
+    width: 50%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+}
+
+.login-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.login-container label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.login-container .input-field {
+    width: 35%;
+    padding: 8px;
+    margin: 0 auto 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+}
+
+.login-container button {
+    width: 35%;
+    padding: 10px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+}
+
+.background-image {
+    width: 50%;
+    height: 100vh;
+    background-image: url('https://bookyourpandit.in/_next/image?url=%2Fpandit.png&w=2048&q=75');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
